@@ -18,7 +18,7 @@ body {
 }
 
 .container:hover {
-    background-color: rgb(76, 134, 113);
+    background-color: rgb(124, 107, 159);
 }
 
 .banner-details {
@@ -85,7 +85,7 @@ body {
 }
 
 .menu-section {
-    padding-right: 20px;
+    padding-right: 25px;
 }
 
 .menu-bar {
@@ -119,45 +119,63 @@ body {
 
 }
 
-.upcomming {
+.blog {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    width: 100%;
-    height: 100%;
 }
 
-.upcomming-section {
+.blog-section {
     border: 2px solid #E8E8E8;
     border-radius: 10px;
-    align-items: center;
-    padding: 50px 20px 50px 20px;
 }
 
-.upcomming-bar {
+.blog-bar a:hover {
+    background-color: red;
+    color: #ffffff;
+}
+
+.blog-bar img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.blog-btn {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 15px;
+
+}
+
+.blog-details {
+    margin: 15px;
+    color: black;
+    font-size: 16px;
+}
+
+.match-details {
     display: flex;
-    justify-content: center;
-}
-
-.match-versus {
-    padding: 0 15px;
-    font-size: 18px;
-}
-
-.game-details {
-    text-align: center;
-}
-
-.game-info {
-    font-size: 20px;
-    margin-bottom: 0;
-}
-
-.time-table {
-    font-size: 14px;
-    color: gray;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
 
 }
+
+.match-time {
+    margin-right: 20px
+}
+
+
+
+
+
+
+
+
 
 /*----------------------- 
     footer section 
