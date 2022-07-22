@@ -193,3 +193,29 @@ hr {
     padding: 25px;
     margin-top: 80px;
 }
+
+/*=================
+     footer end 
+=================== */
+
+.social-icon {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.icon {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.icon a {
+    background-color: #161616;
+    color: #6a51c2;
+    padding: 0 7px;
+    border-radius: 25px;
+    font-size: 25px;
+}
