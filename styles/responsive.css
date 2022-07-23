@@ -1,0 +1,141 @@
+/* ---------------------------------------------------
+                        Mobile view
+------------------------------------------------------ */
+@media only screen and (max-width: 688px) {
+
+
+    .container-body {
+        margin: 10px 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+
+    }
+
+    .banner-details {
+        color: #FFFFFF;
+        margin: 50px 70px 0px 100px;
+        text-align: center;
+
+    }
+
+    .top-banner {
+        font-family: 700;
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .top-banner-text {}
+
+    .link a {
+        font-size: 20px;
+    }
+
+
+    .image-part img {
+        width: 80%;
+        margin-left: 130px;
+        margin-right: 0px;
+
+    }
+
+    /* ========================================= */
+
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+
+    .menu-bar {
+        row-gap: 0px;
+        background-color: rgb(71, 42, 42);
+        width: 0px;
+        height: 300px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-bar a {
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+        text-decoration: none;
+        border: 1px solid gray;
+        text-align: center;
+
+
+    }
+
+    /* =================================== */
+
+    .upcomming {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+
+    /* ================================ */
+
+    .footer-name {
+        background-color: #161616;
+    }
+
+    .footer-link {
+        background-color: #161616;
+    }
+
+    .footer-link a {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: 0px;
+        background-color: #161616;
+    }
+
+
+    .social-icon {
+        background-color: #161616;
+        margin-top: 0;
+
+
+    }
+
+    .foot-padding {
+        padding-bottom: 0;
+    }
+}
+
+
+
+/* -----------------------------------------------------------
+                            Tablet view
+-------------------------------------------------------------- */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .container-body {
+        margin: 40px 60px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+
+    }
+
+}
