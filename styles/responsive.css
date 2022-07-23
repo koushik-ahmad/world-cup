@@ -3,46 +3,52 @@
 ------------------------------------------------------ */
 @media only screen and (max-width: 688px) {
 
-
     .container-body {
-        margin: 10px 20px;
+        margin: 20px 20px 20px 20px;
     }
 
     .container {
         display: flex;
         flex-direction: column;
-        align-content: center;
-        justify-content: center;
+        width: 100%;
+        height: 600px;
         align-items: center;
         margin-bottom: 0px;
 
     }
 
     .banner-details {
+        width: 250px;
+        height: 325px;
+        margin: 0;
         color: #FFFFFF;
-        margin: 50px 70px 0px 100px;
         text-align: center;
 
     }
 
     .top-banner {
         font-family: 700;
-        font-size: 35px;
+        font-size: 30px;
         line-height: 50px;
+        margin-left: -25px;
+        margin-right: -25px;
     }
 
-    .top-banner-text {}
+    .top-banner-text {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 0;
+    }
 
     .link a {
         font-size: 20px;
+        padding: 10px 20px 10px 20px;
     }
 
-
     .image-part img {
-        width: 80%;
-        margin-left: 130px;
-        margin-right: 0px;
-
+        width: 233px;
+        height: 245px;
+        padding-left: 100px;
     }
 
     /* ========================================= */
@@ -72,20 +78,17 @@
         text-decoration: none;
         border: 1px solid gray;
         text-align: center;
-
-
     }
 
-    /* =================================== */
+    /* ================ blog style add here =================== */
 
-    .upcomming {
+    .upcomming, .blog {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px;
     }
 
-
-    /* ================================ */
+    /* ================ blog style end here ================ */
 
     .footer-name {
         background-color: #161616;
@@ -99,23 +102,26 @@
         display: flex;
         flex-direction: column;
         padding: 20px;
-        margin: 0px;
+        margin: -1px;
         background-color: #161616;
     }
 
+    hr {
+        width: 330px;
+    }
 
     .social-icon {
         background-color: #161616;
         margin-top: 0;
-
 
     }
 
     .foot-padding {
         padding-bottom: 0;
     }
-}
 
+
+}
 
 
 /* -----------------------------------------------------------
@@ -137,5 +143,8 @@
         margin-bottom: 0px;
 
     }
+
+
+
 
 }
