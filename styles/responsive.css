@@ -30,15 +30,35 @@
         font-family: 700;
         font-size: 30px;
         line-height: 50px;
-        margin-left: -25px;
-        margin-right: -25px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
 
     .top-banner-text {
         font-size: 14px;
         line-height: 25px;
-        margin-bottom: 0;
+        
     }
+
+    /* ========================================== */
+    .top-banner-text {
+        white-space: wrap;
+        width: 250px;
+        height: 35px;
+        overflow: hidden;
+        text-overflow: ellipsis ellipsis;
+        border: 0px solid #000000;
+    }
+
+    .top-banner-text:hover {
+        overflow: visible;
+    }
+
+    .link-part {
+        margin-top: 60px;
+    }
+
+    /* ========================================== */
 
     .link a {
         font-size: 20px;
@@ -76,7 +96,7 @@
         background-color: white;
         border-radius: 10px;
         text-decoration: none;
-        border: 1px solid gray;
+        border: 2px solid gray;
         text-align: center;
     }
 
@@ -91,8 +111,19 @@
 
     /* ================ blog style end here ================ */
 
+
+    .goal-footer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: -30px;
+        background: #161616;
+    }
+
     .footer-name {
         background-color: #161616;
+        height: 0;
     }
 
     .footer-link {
@@ -161,7 +192,29 @@
         margin-bottom: 15px;
     }
 
+    /* ============================ */
     .top-banner-text {
+        white-space: wrap;
+        width: 300px;
+        height: 35px;
+        overflow: hidden;
+        text-overflow: ellipsis ellipsis;
+        border: 0px solid #000000;
+    }
+
+    .top-banner-text:hover {
+        overflow: visible;
+    }
+
+    .link-part {
+        margin-top: 45px;
+    }
+
+    /* ============================= */
+
+    .top-banner-text {
+
+        text-overflow: ellipsis;
         font-weight: 200;
         font-size: 14px;
         line-height: 24px;
@@ -178,8 +231,6 @@
     }
 
     /* ======================================= */
-
-
 
 
     .main-section {
@@ -208,15 +259,21 @@
         text-decoration: none;
         border: 2px solid gray;
         text-align: center;
+
     }
 
 
+    .button {
+        margin-top: -110px;
+    }
 
+    .button a {
+        visibility: visible;
+    }
 
-
-
-
-
+    .blog-hidden {
+        visibility: hidden;
+    }
 
     /* ================second blog style add here =================== */
 
@@ -227,10 +284,31 @@
         grid-gap: 20px;
     }
 
+    hr {
+        width: 100%;
+    }
+
     /* ================ second blog style end here ================ */
 
+    .footer-link {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    
+    }
+    .footer-link a {
+        padding: 0;
+    
+    }
 
-
+    .link-center {
+        text-align: center;
+        padding-left: 20px;
+        margin-left: 20px;
+    }
 
 
 
